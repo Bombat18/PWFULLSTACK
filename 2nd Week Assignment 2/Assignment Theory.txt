@@ -1,0 +1,42 @@
+3> Write a short note on tags, elements, and attributes along with relevant examples.
+
+ans:- Tags- Tags can be used define the elements in HTML documents. we can Write this in angle bracket(<>). In html tag have opening tags and closing tags.
+Elements- Elements is a most basic components of HTML , which can be represent text, paragraph, list and other content of the web page.
+Attributes- By the attributes we can provides the additional information or properties to HTML elements.
+            Attributes are added to an elements opening tag using the syntax  attribute_name="attribute_value".
+            The most commen tag attributes are 1.id,2.class,3.style.
+
+4> List out any 3 tags We learned in this module and give a brief explanation about the tags.
+
+a ns:- <h1> - Heading Tag: <h1> tag is used to define the main heading on a webpage. HTML provides <h1> to <h6> tags for different levels of headings. 
+<p> - Paragraph Tag: <p> tag is used to define a paragraph of text. It is used to group a block of related text together.
+<a> - Anchor Tag: <a> tag is used to create hyperlinks or links to other web pages or resources. It is commonly used to link to other web pages, files, email addresses, or specific sections within a page. 
+
+5> What is emmet ? List some of the advantages emmet offers ?
+
+ans:- Emmet is a shotest abbreviation syntax for writing HTML.It can helps devlopers to write HTML syntex faster.it will br automatically installed in VS code editor.
+       Advantages of Emmet:- it can be increasing the productivity of the devloper.
+                             By Emmet devloper can write complex HTML and CSS code with just a few keywords.
+
+7> Explain in brief about the nesting operators in emmet.
+ans:- In emmet the nesting operators is used the hierarchical relation between HTML elements.
+      he nesting operator in Emmet is represented by the > symbol.
+      we can write: table>tr>td .
+
+9> What are self-closing tags? Write a brief note on meta tags.   
+
+ans:- Those tags are used to insert elements that do not have any content or do not need a closing tag. 
+      The most commonly used self-closing tag is the <br>.
+
+      Meta tags are special HTML tags that provide information about the web page to search engines, browsers, and other web services. 
+      Example: 'name' ,' content' .
+
+10> What are global attributes ? List any 5 global attributes.
+
+  ans:-  These attributes provide common functionalities and behaviors that can be applied universally to different elements.      
+         
+         class -  It allows us to define styles and apply multiple elements with the same class.
+         id - The id attribute is used to give a unique identifier to an HTML element. 
+         style - The style attribute is used to apply inline CSS styles to an HTML element. 
+         title - The title attribute is used to provide additional information about an element .
+         hidden - Hide the elements of a page that are no longer to available.
