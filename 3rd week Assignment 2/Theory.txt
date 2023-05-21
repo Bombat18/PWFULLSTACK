@@ -1,0 +1,85 @@
+1. List out the features of HTML5.
+ans:-
+Improved Multimedia support - HTML5 allows for the integration of multimedia elements such as audio
+                       and video directly into web pages without the need for plugins like Flash.
+
+Canvas element - HTML5 introduced the <canvas> element, which allows for dynamic, interactive
+                  graphics to be created and manipulated within a web page.
+
+Geolocation API - HTML5 provides an API for obtaining the user's location, enabling web applications to
+                   offer location-based services.
+
+Local Storage - HTML5 introduced the localStorage API, which allows for the storage of data on the user's
+                 device, improving performance and reducing the need for roundtrips to the server.
+
+New Structural Elements - HTML5 introduced new semantic elements such as <header>, <footer>, <nav>,
+                         and <article> that make it easier to structure and organise content on a web page.
+
+Form Improvements - HTML5 introduced several improvements to forms, including new input types like
+                    date, time, and colour, as well as new attributes such as required and autofocus.
+
+Accessibility improvements - HTML5 provides better support for accessibility, including the ability to
+                             provide alternative text for images and improved support for screen readers.
+
+
+2.  What are HTML Entities? List out 5 commonly used html entities . 
+
+Ans:- 
+HTML entities are commonly used to demonstrate characters that are reserved and imperceptible characters such as non-breaking spaces. 
+
+ex- &,>,<,",©,™,®
+
+3. What is web Accessibility ? List some of the assistive devices which play a major role in providing
+accessibility.
+
+Ans:-
+     Web accessibility refers to the practice or designing and developing web applications that can be accessed
+      and used by people with disabilities or different needs, without barriers or limitations.
+
+Screen Reader 
+Voice recognition software
+Keyboard alternatives 
+
+4. List any 3 ways which help us in improving the accessibility of HTML.
+
+Screen Reader : A screen reader is a software that reads out loud the content of a web page to individuals
+who are visually impaired. 9t can also interpret and communicate information about graphics, multimedia,
+and other elements on the page.
+
+Voice recognition software : Voice recognition software enables users to navigate web pages and input
+text using voice commands. This technology is particularly useful for individuals with mobility impairments
+or those who have difficulty using a keyboard or mouse.
+
+Keyboard alternatives : keyboard alternatives such as sip-and-puff devices, head-tracking devices, and
+eye-tracking devices allow individuals with physical disabilities to navigate and interact with web pages
+without the use of a traditional keyboard or mouse.
+
+5. Write a short note on the tabindex.
+Ans:- 
+Basically, the tabindex attribute is primarily intended to allow tabbable elements to have a custom tab order
+ instead of just being tabbed through in their default source order.
+
+6. List any 5 semantic tags in html along with their descriptions.
+
+ans:-
+
+<aside>     Defines content aside from the page conten
+<details>   Defines additional details that the user can view or hide
+<figure>    Specifies self-contained content, like illustrations, Diagrams,
+photos, code listings, etc
+<footer>    Defines a footer for a document or section
+<header>    Specifies a header for a document of section
+
+7. What are the benefits of using semantic tags in our webpage.
+
+ans:-
+. By using Semantic tags in our code, we can provide additional information about that document by
+defining the layout and sections of the webpage.
+. Semantic elements are of great help to people using screen readers1 The additional information
+provided by semantic tags helps screen readers understand the content better and help them to
+determine the different sections within a page more efficiently.
+. HTML Semantic tags help the browser determine the purpose of the page and its content1 Semantic
+tags also help in Search Engine Optimization as they help browsers interpret the content more easily
+by making content more adaptive.
+
+
