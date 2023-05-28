@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <style>
+        /* CSS for the navigation bar */
+
+        ul.navbar {
+            list-style-type: none overflow:hidden;
+            background-color: #e8da42;
+            margin-top: 3px;
+            text-align: center;
+            /* Added */
+        }
+
+
+        li {
+            display: inline-block;
+            /* Changed from float: left */
+            border: 1px;
+        }
+
+        a {
+            display: block;
+            color: rgb(6, 8, 107);
+            padding: 20px 23px;
+            font-size: 24px;
+        }
+
+        #dj1 {
+            border-style: dotted;
+        }
+
+        #dj2 {
+            border-style: double;
+        }
+
+        #dj3 {
+            border-style: groove;
+        }
+
+        #dj4 {
+            border-style: inset;
+        }
+
+        #dj5 {
+            border-style: ridge;
+        }
+
+        /* 
+        hover css */
+
+        a:hover {
+            font-weight: bold;
+        }
+
+        #ank1:hover {
+            color: #09604c;
+            font-size: 100px;
+        }
+
+        #ank2:hover {
+            color: #8d5a09;
+            font-size: 100px;
+        }
+
+        #ank3:hover {
+            color: #100205;
+            font-size: 100px;
+        }
+
+        #ank4:hover {
+            color: #3808f6;
+            font-size: 100px;
+        }
+
+        #ank5:hover {
+            color: #940a44;
+            font-size: 100px;
+        }
+
+        body {
+            background-color: black;
+            margin: 0;
+            /* Added */
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <ul class="navbar">
+            <li id="dj1"><a id="ank1" href="#">Home</a></li>
+            <li id="dj2"><a id="ank2" href="#">About Us</a></li>
+            <li id="dj3"><a id="ank3" href="#">Contact</a></li>
+            <li id="dj4"><a id="ank4" href="#">Blog</a></li>
+            <li id="dj5"><a id="ank5" href="#">Login</a></li>
+        </ul>
+    </nav>
+</body>
+
+</html>
