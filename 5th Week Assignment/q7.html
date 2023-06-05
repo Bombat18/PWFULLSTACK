@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+.container {
+
+position: relative;
+
+}
+
+.box {
+margin-top: 8%;
+position: absolute;
+
+width: 120px;
+
+height: 180px;
+padding-top:13px ;
+font-size: 12px;
+font-weight: bold;
+border-radius: 5px;
+color: rgb(0, 0, 0);
+text-align: center;
+border: 2px solid rgb(36, 36, 36);
+
+}
+
+.box_1 {
+
+background-color: rgb(79, 118, 249);
+
+z-index: 1;
+
+}
+
+.box_2 {
+
+left: 30px;
+
+top: 40px;
+
+background-color: rgb(33, 159, 86);
+
+z-index: 2;
+
+
+}
+.box_3 {
+
+left: 60px;
+
+top: 80px;
+
+background-color: rgb(224, 170, 10);
+
+z-index: 3;
+}
+.box_1:hover{
+    z-index: 4;
+}
+.box_2:hover{
+    z-index: 4;
+}
+    </style>
+</head>
+<body>
+    <div>
+        <h3 style="text-align: center;">
+Hover To Unveil The Pokemon
+        </h3>
+        <div class="container">
+    
+            <div class="box box_1"> card 1
+                <img width="90px" src="https://www.transparentpng.com/thumb/pokemon/3BSNcB-pokemon-vector.png" alt="pokemon vector @transparentpng.com">
+            </div>
+      
+            <div class="box box_2"> card 2
+
+                <img  width="120px" src="https://www.transparentpng.com/thumb/pokemon/v1akBM-pokemon-transparent-image.png" alt="pokemon transparent image @transparentpng.com">
+            </div>
+      
+            <div class="box box_3 card ">card 3 
+            <img width="110px" style="padding-top:20px ;" src="https://www.transparentpng.com/thumb/pokemon/G0pQk0-pokemon-png-icon.png" alt="pokemon png icon @transparentpng.com">
+          
+        </div>
+      
+          </div>
+    </div>
+  
+</body>
+</html>
