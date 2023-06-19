@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(22, 23, 24);
+        }
+
+        img {
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            object-fit: cover;
+            border: 5px solid #ffffff;
+        }
+
+        .zindex1 {
+            z-index: 1;
+            left: 30%;
+            bottom: 44%;
+        }
+
+        .zindex2 {
+            z-index: 2;
+            left: 39%;
+            bottom: 44%;
+        }
+
+        .zindex3 {
+            z-index: 3;
+            left: 48%;
+            bottom: 44%;
+        }
+
+        .zindex4 {
+            z-index: 4;
+            left: 56%;
+            bottom: 44%;
+        }
+
+        .box {
+            position: absolute;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="contain">
+        <div class="zindex1 box"><img src="https://cdn.pixabay.com/photo/2023/05/18/16/25/boat-8002718_1280.jpg" alt="">
+        </div>
+        <div class="zindex2 box"><img src="https://cdn.pixabay.com/photo/2023/05/10/02/08/pollinators-7982752_1280.jpg"
+                alt=""></div>
+        <div class="zindex3 box"><img src="https://cdn.pixabay.com/photo/2023/06/02/14/12/woman-8035772_1280.jpg"
+                alt=""></div>
+        <div class="zindex4 box"><img src="https://cdn.pixabay.com/photo/2023/05/22/13/45/mount-fuji-8010752_1280.jpg"
+                alt=""></div>
+    </div>
+</body>
+
+</html>
