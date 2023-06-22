@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link href='https://fonts.googleapis.com/css?family=Manrope' rel='stylesheet'>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Noto+Sans&display=swap');
+
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .img1 {
+            width: 30px;
+            padding-top: 3px;
+        }
+
+        .nev-bar {
+            display: flex;
+            justify-content: space-between;
+            background-color: rgb(38, 38, 38);
+            align-items: center;
+            padding-left: 10px;
+            padding-right: 10px;
+            height: 27px;
+        }
+
+        .nev-contain {
+            display: flex;
+            justify-content: center;
+
+        }
+
+        a {
+            text-decoration: none;
+            color: white;
+            padding: 5px;
+            font-size: 12px;
+            font-family: 'Noto Sans', sans-serif;
+        }
+
+        button {
+            font-weight: bold;
+            color: white;
+            background-color: rgb(32, 72, 250);
+            border: none;
+            width: 70px;
+            height: 20px;
+            border-radius: 3px;
+            font-size: 10px;
+        }
+
+
+        .bar {
+            height: 3px;
+            width: 25px;
+            background-color: #ffffff;
+            margin: 5px 0;
+
+        }
+
+
+        .hamburger-menu {
+            display: none;
+        }
+
+        .main-contant {
+            display: flex;
+            justify-content: space-between;
+            margin: 0px 40px 0px 40px;
+
+
+        }
+
+        #submain {
+            display: flex;
+
+            flex-direction: column;
+            justify-content: center;
+
+        }
+
+        #para1st {
+            font-size: 30px;
+            font-family: Manrope;
+            font-weight: bold;
+            margin-bottom: 0px;
+        }
+
+        #para2nd {
+            font-size: 48px;
+            font-family: Manrope;
+            font-weight: bold;
+            color: #4d89fa;
+            margin: 0px;
+        }
+
+        #para3rd {
+            font-size: 14px;
+            font-family: Manrope;
+            font-weight: bold;
+            color: #4d89fa;
+        }
+
+        #para4th {
+            font-family: Manrope;
+            font-size: 13px;
+            font-weight: bold;
+        }
+
+        #img2 {
+            width: 400px;
+        }
+
+        #video1 {
+            width: 500px;
+
+        }
+
+
+
+
+        .footer {
+            background-color: black;
+            color: #ffffff;
+            text-align: center;
+            padding: 30px 0px 30px 0px;
+        }
+
+
+        .hadding1 {
+            font-size: 40px;
+            color: #4a88fa;
+            font-family: Manrope;
+
+        }
+
+        .para8 p {
+            font-size: 30px;
+            font-family: Manrope;
+            margin: 5px;
+            font-weight: bold;
+        }
+
+
+
+
+
+
+
+        /* Media query  */
+
+        @media screen and (max-width: 576px) {
+
+            .responsive {
+                display: none;
+            }
+
+
+            .hamburger-menu {
+                display: block;
+                cursor: pointer;
+            }
+
+
+            .nev-bar {
+                display: flex;
+                justify-content: space-between;
+                background-color: rgb(38, 38, 38);
+                align-items: center;
+                padding-left: 20px;
+                padding-right: 20px;
+                height: 70px;
+                width: 100%;
+            }
+
+            .img1 {
+                width: 50px;
+                padding-top: 3px;
+            }
+
+            .main-contant {
+                display: flex;
+                margin: 0px 40px 0px 10px;
+                flex-direction: column;
+                justify-content: center;
+            }
+
+            #video1 {
+                width: 400px;
+
+            }
+
+            #img2 {
+                width: 300px;
+            }
+
+
+            #para4th {
+                width: 410px;
+            }
+
+            .footer {
+                background-color: rgb(255, 255, 255);
+                color: #000000;
+                text-align: center;
+                padding: 30px 5px 30px 5px;
+                width: 107.5%;
+                margin-bottom: 30px;
+            }
+
+            .hadding1 {
+                font-size: 38px;
+
+
+            }
+
+            .para8 p {
+                font-size: 27px;
+                font-family: Manrope;
+                margin: 5px;
+                font-weight: bold;
+            }
+
+
+
+
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <div class="nev-bar">
+            <div><img class="img1" src="https://www.getonecard.app/images/logo_white.svg" alt=""></div>
+            <div class="nev-contain responsive">
+                <div><a href="#">Home</a></div>
+                <div><a href="#">Blog</a></div>
+                <div><a href="#">About</a></div>
+                <div><a href="#">Contact</a></div>
+
+            </div>
+            <div class="responsive"> <button>Login </button></div>
+
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </div>
+
+    </nav>
+
+    <main>
+        <div class="main-contant">
+            <div id="submain">
+                <div>
+                    <p id="para1st">Say Hi To</p>
+                </div>
+                <div>
+                    <p id="para2nd">OneCard</p>
+                </div>
+                <div>
+                    <p id="para3rd">Co-branded Card Issuers :</p>
+                </div>
+                <div><img id="img2" src="https://www.getonecard.app/images/legal/Banking_partners_24thJan_dark__.png"
+                        alt="">
+                </div>
+                <div>
+                    <p id="para4th">India's best metal credit card. Built with full-stack tech. Backed by the principles
+                        of
+                        simplicity, transparency, and giving back control to the user.</p>
+                </div>
+
+            </div>
+            <div>
+                <video id="video1" autoplay="autoplay" muted="muted" loop="loop">
+                    <source src="https://www.getonecard.app/images/say_hi_2x_d3_.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div>
+                <h1 class="hadding1">No Hidden Fees Ever</h1>
+            </div>
+            <div class="para8">
+                <p>No Joining Fees.</p>
+            </div>
+            <div class="para8">
+                <p>No Annual Fees.</p>
+            </div>
+            <div class="para8">
+                <p>No Rewards Redemption Fees.</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>

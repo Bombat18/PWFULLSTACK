@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container1,
+        .container2 {
+            display: flex;
+            justify-content: space-evenly;
+
+
+        }
+
+        img {
+            width: 340px;
+            height: 200px;
+            margin: 3px;
+            border-radius: 20px;
+            border: 3px solid black;
+        }
+
+        h1 {
+            font-size: 20px;
+            text-decoration: underline;
+            text-align: center;
+        }
+
+        @media screen and (max-width: 769px) {
+
+            .container1,
+            .container2 {
+                flex-wrap: wrap;
+            }
+
+            img {
+                width: 710px;
+                height: 430px;
+                margin: 7px;
+                border: 5px solid black;
+
+            }
+
+
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <h1>
+            Random Images
+        </h1>
+        <div class="container1">
+            <div><img src="https://images.pexels.com/photos/15286/pexels-photo.jpg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+            <div><img
+                    src="https://images.pexels.com/photos/3408744/pexels-photo-3408744.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+            <div><img
+                    src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+        </div>
+        <div class="container2">
+            <div><img
+                    src="https://images.pexels.com/photos/2387873/pexels-photo-2387873.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+            <div><img
+                    src="https://images.pexels.com/photos/797797/pexels-photo-797797.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+            <div><img
+                    src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=400"
+                    alt=""></div>
+        </div>
+    </main>
+</body>
+
+</html>
