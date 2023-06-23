@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        button {
+            display: block;
+            margin: 200px auto;
+            border: none;
+            width: 250px;
+            height: 50px;
+            border-radius: 4px;
+            background-image: linear-gradient(to right, #077bff 20%, rgb(3, 81, 249));
+            color: aliceblue;
+            font-weight: bold;
+            /* animation: slide-down 0.1s ease-in-out 0s 100 forwards; */
+
+            animation: bounce 1s infinite;
+
+        }
+
+        @keyframes bounce {
+            from {
+                transform: translateY(-40%);
+            }
+
+            to {
+                transform: translateY(-10%);
+                /* move button to 0 position */
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <button>
+        Click Me To Visit PW Skills.
+    </button>
+</body>
+
+</html>
