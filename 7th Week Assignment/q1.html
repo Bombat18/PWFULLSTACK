@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .content {
+            display: grid;
+            grid-template-areas: "Left Right" "Left Right";
+            align-items: center;
+            grid-template-columns: 60% 40%;
+
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .left {
+            grid-area: Left;
+            margin: 50px 100px 50px 70px;
+
+        }
+
+        .right {
+            grid-area: Right;
+            background-color: yellow;
+            height: 474px;
+        }
+
+        img {
+            width: 316px;
+        }
+
+        p {
+            color: rgb(94, 95, 95);
+        }
+
+        button {
+            background-color: black;
+            border: none;
+            color: aliceblue;
+            width: 130px;
+            height: 30px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content">
+        <div class="left">
+            <h1>Healthy Food</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi repudiandae veniam architecto
+                sunt nihil quod sit, eaque iure, facilis voluptatem numquam natus fugit in eos, tempore laboriosam ad
+                deserunt sed minus porro? Consectetur, assumenda? Eligendi, ullam provident laborum cupiditate ratione
+                dolore dolor corrupti .
+            </p>
+            <button>Read More</button>
+        </div>
+        <div class="right">
+            <img src="https://static.wixstatic.com/media/a560a5_7e7bc9bca5bc41a8b67f34adb1676e7e~mv2_d_2400_3600_s_4_2.jpg/v1/fill/w_1026,h_1539,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bevri_website_gift_card.jpg"
+                alt="">
+        </div>
+
+    </div>
+</body>
+
+</html>

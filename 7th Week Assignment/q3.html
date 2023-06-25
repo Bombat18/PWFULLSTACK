@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+            background-color: rgb(54, 11, 3);
+            display: grid;
+            /* grid-template-columns: 1fr 1fr 1fr; */
+            align-items: end;
+            grid-template-columns: repeat(3, 200px);
+            text-align: center;
+            justify-content: space-around;
+            padding: 5px 0px 40px 0px;
+            margin-top: 10px;
+
+
+        }
+
+        .img3 {
+            width: 80px;
+        }
+
+        h2 {
+            color: rgb(252, 253, 254);
+            font-size: 16px;
+        }
+
+        .para1 {
+            color: rgb(247, 170, 5);
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .navigation {
+            margin-top: 0px;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            justify-items: center;
+            align-items: center;
+        }
+
+
+        .img2 {
+            width: 50px;
+        }
+
+        .button2 {
+            width: 100px;
+            border: none;
+            background-color: rgb(5, 243, 108);
+            color: rgb(0, 0, 0);
+            height: 20px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+
+        .content {
+            display: grid;
+            grid-template-areas: "Left Right" "Left Right";
+            align-items: center;
+            grid-template-columns: 60% 40%;
+
+
+        }
+
+        .left {
+            grid-area: Left;
+            margin: 50px 100px 50px 70px;
+
+        }
+
+        .right {
+            grid-area: Right;
+            background-color: yellow;
+            height: 450px;
+        }
+
+        .img1 {
+            width: 300px;
+        }
+
+        p {
+            color: rgb(94, 95, 95);
+        }
+
+        .button1 {
+            background-color: black;
+            border: none;
+            color: aliceblue;
+            width: 130px;
+            height: 30px;
+            margin-top: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="navigation">
+        <div><img class="img2"
+                src="https://img.freepik.com/free-vector/hand-drawn-healthy-food-logo-template_23-2149653126.jpg?w=740&t=st=1687617411~exp=1687618011~hmac=f172bc3ce433114d8f43f96f09a0fc0b788d2456c717fc0a212e4b6bac4fbede"
+                alt=""></div>
+        <div class="mid">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div><Button class="button2">Login</Button></div>
+    </div>
+
+    <div class="content">
+        <div class="left">
+            <h1>Healthy Food</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi repudiandae veniam architecto
+                sunt nihil quod sit, eaque iure, facilis voluptatem numquam natus fugit in eos, tempore laboriosam ad
+                deserunt sed minus porro? Consectetur, assumenda? Eligendi, ullam provident laborum cupiditate ratione
+                dolore dolor corrupti .
+            </p>
+            <button class="button1">Read More</button>
+        </div>
+        <div class="right">
+            <img class="img1"
+                src="https://static.wixstatic.com/media/a560a5_7e7bc9bca5bc41a8b67f34adb1676e7e~mv2_d_2400_3600_s_4_2.jpg/v1/fill/w_1026,h_1539,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bevri_website_gift_card.jpg"
+                alt="">
+        </div>
+
+    </div>
+
+
+
+
+    <div class="container">
+
+        <div class="grid-item"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+                alt="">
+            <div>
+                <h2>No Minimum Order</h2>
+                <p class="para1">Order in for yourself or for the group, <br> with no restrictions on order value</p>
+            </div>
+        </div>
+        <div class="grid-item"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+                alt="">
+
+            <div>
+                <h2>Live Order Tracking</h2>
+                <p class="para1">Know where your order is at all times, <br> from the restaurant to your doorstep </p>
+            </div>
+        </div>
+
+        <div class="grid-item"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+                alt="">
+            <div>
+                <h2>Lightning-Fast Delivery</h2>
+                <p class="para1">Experience Swiggy's superfast delivery <br> for food delivered fresh & on time</p>
+            </div>
+        </div>
+
+
+    </div>
+
+
+</body>
+
+</html>

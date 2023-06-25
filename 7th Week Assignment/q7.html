@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contain {
+
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            grid-template-rows: repeat(3, 1fr);
+
+        }
+img{
+    border-radius: 10px;
+}
+       
+
+        .item5 {
+            grid-row: 2/4;
+
+        }
+
+        .item6 {
+            grid-row: 2/4;
+            grid-column: 3/4;
+        }
+
+        .item2 {
+            grid-row: 1/3;
+            grid-column: 2/3;
+
+        }
+
+      
+
+        .img4 {
+            height: 329px;
+            width: 340px;
+        }
+        .img1{
+            width: 340px;
+            height: 160px;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contain">
+        <div><img class="img1"
+                src="https://images.pexels.com/photos/3244513/pexels-photo-3244513.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+        <div class="item2"><img class="img4"
+                src="https://images.pexels.com/photos/2686558/pexels-photo-2686558.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+        <div><img  class="img1"
+                src="https://images.pexels.com/photos/3293148/pexels-photo-3293148.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+        <div class="item5"><img class="img4"
+                src="https://images.pexels.com/photos/2909077/pexels-photo-2909077.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+        <div><img  class="img1" src="https://images.pexels.com/photos/933054/pexels-photo-933054.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+        <div class="item6"><img class="img4"  class="img1"
+                src="https://images.pexels.com/photos/2113566/pexels-photo-2113566.jpeg?auto=compress&cs=tinysrgb&w=400"
+                alt=""></div>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .container {
+
+            display: grid;
+            background-color: rgb(58, 14, 3);
+            text-align: center;
+            padding: 5px 0px 40px 0px;
+            margin-top: 10px;
+            grid-template-columns: repeat(3, 280px);
+            align-items: end;
+            justify-content: center;
+            border: 2px solid black;
+
+        }
+
+        .img3 {
+            width: 100px;
+        }
+
+        h2 {
+            color: rgb(252, 253, 254);
+            font-size: 16px;
+        }
+
+        .para1 {
+            color: rgb(247, 170, 5);
+            font-size: 10px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            te
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, Helvetica, sans-serif;
+
+        }
+
+        .navigation {
+            margin-top: 0px;
+            display: grid;
+            grid-template-columns: auto 1fr auto;
+            justify-items: center;
+            align-items: center;
+        }
+
+
+        .img2 {
+            width: 50px;
+        }
+
+        .button2 {
+            width: 100px;
+            border: none;
+            background-color: rgb(5, 243, 108);
+            color: rgb(0, 0, 0);
+            height: 20px;
+            border-radius: 3px;
+            font-weight: bold;
+            font-size: 10px;
+        }
+
+        a {
+            padding: 10px;
+            text-decoration: none;
+            color: rgb(0, 0, 0);
+        }
+
+
+        .content {
+            display: grid;
+            grid-template-areas: "Left Right" "Left Right";
+            align-items: center;
+            grid-template-columns: 60% 40%;
+
+
+        }
+
+        .left {
+            grid-area: Left;
+            margin: 50px 100px 50px 70px;
+
+        }
+
+        .right {
+            grid-area: Right;
+            background-color: yellow;
+            height: 420px;
+        }
+
+        .img1 {
+            width: 280px;
+        }
+
+        p {
+            color: rgb(94, 95, 95);
+            font-size: 12px;
+
+        }
+
+        .button1 {
+            background-color: black;
+            border: none;
+            color: aliceblue;
+            width: 130px;
+            height: 30px;
+            margin-top: 5px;
+        }
+
+        .img5 {
+            width: 200px;
+            height: 100px;
+
+        }
+
+        .img6 {
+            width: 200px;
+            height: 100px;
+        }
+
+        .img7 {
+            width: 200px;
+            height: 100px;
+
+        }
+
+        .img5,
+        .img6,
+        .img7 {
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+
+
+        .subcontant {
+            display: grid;
+            margin: 15px;
+            grid-template-columns: repeat(3, 200px);
+            text-align: left;
+            padding: 0;
+            column-gap: 10px;
+
+            justify-content: space-between;
+
+
+        }
+
+
+
+        .color {
+            color: black;
+
+        }
+
+        .text {
+            border-bottom-left-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border: 1px solid black;
+            padding: 0px 20px 0px 20px;
+            margin-top: -4px;
+
+        }
+
+        .footer {
+            display: grid;
+            grid-template-columns: repeat(3, 250px);
+            align-items: start;
+            justify-content: space-evenly;
+            background-color: rgb(68, 9, 3);
+            padding-bottom: 50px;
+
+
+        }
+
+        .img9 {
+            width: 200px;
+            height: 100px;
+
+
+        }
+
+        li {
+            font-size: 11px;
+            text-decoration: none;
+            color: rgb(225, 127, 8);
+            padding-bottom: 20px;
+            text-align: left;
+            list-style-type: none;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- navigation -->
+    <div class="navigation">
+        <div><img class="img2" src="https://w7.pngwing.com/pngs/612/262/png-transparent-zomato-hd-logo-thumbnail.png"
+                alt=""></div>
+        <div class="mid">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Contact</a>
+        </div>
+        <div><Button class="button2">Login</Button></div>
+    </div>
+
+
+    <!-- content1 -->
+
+    <div class="content">
+        <div class="left">
+            <h1>Healthy Food</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Accusamus modi repudiandae veniam architecto
+                sunt nihil quod sit, eaque iure, facilis voluptatem numquam natus fugit in eos, tempore laboriosam ad
+                deserunt sed minus porro? Consectetur, assumenda? Eligendi, ullam provident laborum cupiditate ratione
+                dolore dolor corrupti .
+            </p>
+            <button class="button1">Read More</button>
+        </div>
+        <div class="right">
+            <img class="img1"
+                src="https://static.wixstatic.com/media/a560a5_7e7bc9bca5bc41a8b67f34adb1676e7e~mv2_d_2400_3600_s_4_2.jpg/v1/fill/w_1026,h_1539,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/bevri_website_gift_card.jpg"
+                alt="">
+        </div>
+    </div>
+
+
+    <!-- content2 -->
+
+    <div class="container">
+
+        <div class="left1"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_210,h_398/4x_-_No_min_order_x0bxuf"
+                alt="">
+            <div>
+                <h2>No Minimum Order</h2>
+                <p class="para1">Order in for yourself or for the group, <br> with no restrictions on order value</p>
+            </div>
+        </div>
+        <div class="middle1"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_224,h_412/4x_Live_order_zzotwy"
+                alt="">
+
+            <div>
+                <h2>Live Order Tracking</h2>
+                <p class="para1">Know where your order is at all times, <br> from the restaurant to your doorstep </p>
+            </div>
+        </div>
+
+        <div class="right1"><img class="img3"
+                src="https://res.cloudinary.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_248,h_376/4x_-_Super_fast_delivery_awv7sn"
+                alt="">
+            <div>
+                <h2>Lightning-Fast Delivery</h2>
+                <p class="para1">Experience Swiggy's superfast delivery <br> for food delivered fresh & on time</p>
+            </div>
+        </div>
+    </div>
+
+
+
+    <!-- content3 -->
+    <div class="subcontant">
+        <div class="subcon"><img class="img5"
+                src="https://media.istockphoto.com/id/1377926786/photo/teenage-girl-having-breakfast.webp?b=1&s=170667a&w=0&k=20&c=638ELAkKzgLDohDv0jv5s35iUQubfaIcDhN_04TczAw="
+                alt="">
+            <div class="text">
+                <h2 class="color" class="">Order Online</h2>
+                <p>Stay Home and Order to your Door Step</p>
+            </div>
+        </div>
+
+        <div class="subcon"><img class="img6"
+                src="https://media.istockphoto.com/id/1454811153/photo/dolly-shot-close-up-of-nice-dining-chair-with-wooden-table-and-dish-sets-interior-design.webp?b=1&s=170667a&w=0&k=20&c=jpQF0POnGHelMtEP6_IRLL5SZMf6WwEDbpSFBAjbtZ4="
+                alt="">
+            <div class="text">
+                <h2 class="color">On-site Dining</h2>
+                <p>View the city's favourite dining venues.</p>
+            </div>
+        </div>
+        <div class="subcon"><img class="img7"
+                src="https://images.unsplash.com/photo-1574155376612-bfa4ed8aabfd?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OXx8bmlnaHQlMjBjbHVifGVufDB8fDB8fHww&auto=format&fit=crop&w=1000&q=60"
+                alt="">
+            <div class="text">
+                <h2 class="color">Nightlife & Clubs</h2>
+                <p>Explore the city's top nightlife outlets & tables.</p>
+            </div>
+        </div>
+    </div>
+
+
+</body>
+
+</html>
