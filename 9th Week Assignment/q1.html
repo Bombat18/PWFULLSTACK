@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(230, 228, 228);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            box-shadow: 1px 1px 5px 1px rgba(105, 105, 105, 0.224);
+            width: 280px;
+            height: 205px;
+            border-radius: 8px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            padding-top: 20px;
+            transform: translate(-50%, -50%);
+        }
+
+        input {
+            margin-bottom: 23px;
+            border: none;
+            border-bottom: 1px solid rgb(133, 133, 133);
+            padding-bottom: 10px;
+            font-size: 10px;
+            width: 210px;
+
+        }
+
+        h1 {
+            font-size: 14px;
+
+        }
+
+        button {
+            width: 220px;
+            border: none;
+            background-color: rgb(69, 148, 251);
+            border-radius: 2px;
+            color: white;
+            font-weight: bold;
+            font-size: 10px;
+            height: 21px;
+        }
+
+        input::placeholder {
+            color: rgb(154, 154, 154);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div>
+
+            <h1>
+                login
+            </h1>
+        </div>
+        <div>
+            <input type="text" placeholder="Username">
+        </div>
+
+        <div>
+            <input type="text" placeholder="Password">
+        </div>
+        <div>
+            <button>Submit</button>
+        </div>
+    </div>
+
+
+
+</body>
+
+</html>

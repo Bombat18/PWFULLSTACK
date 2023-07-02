@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(0, 0, 0);
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+
+        .container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: white;
+            box-shadow: 1px 1px 5px 1px rgba(105, 105, 105, 0.224);
+            width: 360px;
+            height: 470px;
+            border-radius: 3px;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            padding: 0px 20px 0px 20px;
+            transform: translate(-50%, -50%);
+
+        }
+
+        input {
+
+            height: 22px;
+            margin: 0;
+            padding-bottom: 0px;
+            font-size: 10px;
+            width: 360px;
+            border: 1px solid rgba(0, 0, 0, 0.591);
+            border-radius: 2px;
+
+        }
+
+        h1 {
+            font-size: 30px;
+
+        }
+
+        button {
+            width: 370px;
+            border: none;
+            background-color: rgb(3, 7, 12);
+            border-radius: 2px;
+            color: white;
+            
+            font-size: 12px;
+            height: 29px;
+        }
+
+        select {
+
+            width: 360px;
+            border: 1px solid #ccc;
+            border-radius: 3px;
+            background-color: #fff;
+            height: 27px;
+            border: 1px solid black ;
+
+        }
+
+        div {
+            margin-bottom: 14px;
+            font-size: 15px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div style="margin: 0;">
+
+            <h1>
+                Signup
+            </h1>
+        </div>
+        <div>
+            Name: <input type="text">
+        </div>
+        <div class="tom"> Btech:
+            <select>
+                <option value="Sigma 2.0">Sigma 2.0</option>
+                <option value="Sigma 3.0">Sigma 3.0</option>
+                <option value="Sigma 4.0">Sigma 4.0</option>
+            </select>
+        </div>
+        <div>
+            Age: <input type="number">
+        </div>
+
+        <div>
+        Email: <input type="email">
+        </div>
+
+        <div>
+            Password: <input type="password">
+        </div>
+        <div>
+            <button>Signup</button>
+        </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
